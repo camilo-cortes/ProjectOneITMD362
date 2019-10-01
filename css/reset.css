@@ -62,17 +62,6 @@ button {
   overflow: visible;
 }
 
-/**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
- * Correct `select` style inheritance in Firefox.
- */
-
-
-
-
-
 
 /**
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
@@ -89,25 +78,6 @@ input[type="submit"] {
 
   cursor: pointer; /* 3 */
 }
-
-/**
- * Re-set default cursor for disabled elements.
- */
-
-
-
-
-
-
-/**
- * Remove inner padding and border in Firefox 4+.
- */
-
-
-
-
-
-
 
 /**
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
@@ -131,40 +101,6 @@ input[type="radio"] {
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
-
-/**
- * Fix the cursor style for Chrome's increment/decrement buttons. For certain
- * `font-size` values of the `input`, it causes the cursor style of the
- * decrement button to change from `default` to `text`.
- */
-
-
-
-
-
-
-/**
- * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
- *    (include `-moz` to future-proof).
- */
-
-
-
-
-
-
-
-
-/**
- * Remove inner padding and search cancel button in Safari and Chrome on OS X.
- * Safari (but not Chrome) clips the cancel button when the search input has
- * padding (and `textfield` appearance).
- */
-
-
-
-
 
 
 /**
