@@ -1,0 +1,21 @@
+html {
+  background-color: #5FB404;
+}
+
+h1 {
+  color: #FFFFFF; 
+  font-family: 'Fredoka One', cursive;
+}
+
+h2 {
+  font-family: 'Tangerine', serif;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  }
