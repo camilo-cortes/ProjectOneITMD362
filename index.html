@@ -15,7 +15,7 @@
   <div class="big-screen-left">
   <h1>Who doesn't</h1>
   <h2>love</h2>
-  <img src="media/plants-word.png" alt ="Plants"> 
+  <img src="media/plants-word.png" alt ="Plants" id="glow"> 
   </div>
   <div class="big-screen-right">
   <h3>Enter your info below to receive a plant picture everyday!</h3>
@@ -24,7 +24,7 @@
   	<input id="name" name="name"><br>
 	<label for="email">Email Address: </label><br>
 	<input id="email" name="email"><br>
-	<input type="submit" value="Submit!" class="submit-button"><br>
+	<input type="submit" value="Submit!" class="submit-button" onmouseenter="makeGlow()" onmouseleave="stopGlow()"><br>
   </form>
   </div>
 </body>
