@@ -1,5 +1,7 @@
 html {
-  background-color: #5FB404;
+  background-image: url("plant-background.jpg");
+  background-size: auto;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -8,14 +10,19 @@ h1 {
 }
 
 h2 {
+  color: #E31068;
   font-family: 'Tangerine', serif;
 }
 
 
 
-
-
-
-
 @media screen and (max-width: 800px) {
+  h1 {
+    font-size: 500%;
+    text-align: center;
+  }
+  h2 {
+    font-size: 700%;
+    text-align: center;
+  }
   }
