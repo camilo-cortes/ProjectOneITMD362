@@ -46,11 +46,14 @@ h3 {
     color: #FFFFFF;
     margin-left: 34%;
     text-align: center;
+    
   }
   .submit-button {
-    border: 20px;
-    border-style: pink;
+    background-color: #8CD28C;
     border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    box-shadow: 0px 5px 10px 5px;
   }
 
 
